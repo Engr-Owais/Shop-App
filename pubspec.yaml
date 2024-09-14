@@ -1,0 +1,48 @@
+name: shopping_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Visual Elements 
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.0
+  animate_do: ^3.3.4
+
+  # State Management
+  provider: ^6.0.2
+
+  # Api Connection
+  dio: ^5.7.0
+  connectivity_plus: ^6.0.5
+
+  # Json Operations
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.4
+  build_runner: ^2.1.7
+
+  # Log
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  device_preview: ^1.0.0
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Medium.ttf
